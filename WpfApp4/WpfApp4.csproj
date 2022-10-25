@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8-bot-64.png" />
+    <None Remove="icons8-send-64.png" />
+    <None Remove="WhatsAppDarkModeBackground.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-bot-64.png" />
+    <Resource Include="icons8-send-64.png" />
+    <Resource Include="WhatsAppDarkModeBackground.jpg" />
+  </ItemGroup>
+
+</Project>
